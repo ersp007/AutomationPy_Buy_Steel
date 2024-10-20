@@ -30,7 +30,7 @@ try:
     mobile_input = WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.ID, "userMobileNum"))
     )
-    mobile_input.send_keys("9348206965")  # Enter your mobile number
+    mobile_input.send_keys("9000000000")  # Enter your mobile number
 
     # Step 2: Trigger OTP
     otp_button = WebDriverWait(driver, 30).until(
